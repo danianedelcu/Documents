@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="documentListView" layoutX="24.0" layoutY="91.0" prefHeight="200.0" prefWidth="572.0" />
+      <TextField fx:id="searchTextField" layoutX="215.0" layoutY="41.0" />
+      <TextField fx:id="updateKeywordsTextField" layoutX="239.0" layoutY="329.0" />
+      <Button fx:id="updateKeywordsButton" layoutX="163.0" layoutY="329.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
